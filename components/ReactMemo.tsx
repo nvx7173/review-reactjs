@@ -3,10 +3,10 @@
 // react.memo bỏ qua việc rerender của component khi props truyền vào không thay đổi
 // component được bọc bằng react.memo vẫn rerender khi state hoặc context của component thay đổi (useState, useReducer or useContext)
 
-import { FC, memo } from "react";
+import { FC, memo } from 'react';
 
 const ReactMemo: FC = () => {
-  return <div>React.memo</div>;
+    return <div>React.memo</div>;
 };
 
 export default memo(ReactMemo);
