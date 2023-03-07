@@ -6,7 +6,7 @@
 import { FC, memo } from 'react';
 
 const ReactMemo: FC = () => {
-    return <div>React.memo</div>;
+    return <div> React.memo</div>;
 };
 
 export default memo(ReactMemo);

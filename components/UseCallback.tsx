@@ -12,7 +12,9 @@ const UseCallback: FC = () => {
     return (
         <>
             <div>{text}</div>
-            <button onClick={onClick}>Click</button>
+            <button className="base-button" onClick={onClick}>
+                Click
+            </button>
         </>
     );
 };
